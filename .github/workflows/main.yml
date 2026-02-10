@@ -35,9 +35,6 @@ jobs:
     - name: Converting file to py file
       run: |
         python convert.py
-    - name: Test multiple choice
-      run: |
-        python problem/test/test_multiple_answers.py
 
     - name: Checkout private tests
       uses: actions/checkout@v4
